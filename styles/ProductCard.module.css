@@ -1,0 +1,33 @@
+.container {
+  width: 22%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: rgba(255, 255, 255, 0.836);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #d1411e;
+  letter-spacing: 2.5px;
+  font-family: "Pacifico", cursive;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #666;
+}
+
+.desc {
+  text-align: center;
+  color: #777;
+}
